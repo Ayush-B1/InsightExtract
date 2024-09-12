@@ -3,17 +3,17 @@ InsightExtract is an advanced LLM (Large Language Model) text summarizer designe
 
 # 🚀 Features:-
 
-Multi-Document Support: 
+1. Multi-Document Support: 
 Automatically extracts and summarizes text from various file formats like PDFs, Word documents, plain text files, and more.
 
-Professional Summaries: 
+2. Professional Summaries: 
 Generates summaries that maintain the tone and key details of the original document, ensuring professionalism.
 
-Easy-to-Understand: 
+3. Easy-to-Understand: 
 Simplifies complex content into clear, concise language, making the information accessible to all users.
 
-Customizable Output: 
+4. Customizable Output: 
 Allows users to tweak summary length and detail level according to their needs.
 
-Interactive UI: 
+5. Interactive UI: 
 User-friendly interface for uploading documents and receiving summaries with just a few clicks.
