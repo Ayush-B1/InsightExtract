@@ -17,3 +17,14 @@ Allows users to tweak summary length and detail level according to their needs.
 
 5. Interactive UI: 
 User-friendly interface for uploading documents and receiving summaries with just a few clicks.
+
+# 📦 How to Use
+1. Clone the repository.
+2. Install the required dependencies.
+3. Run the application locally and upload a document.
+4. Get instant, professional summaries in an easy-to-understand format.
+
+# 🌐 Use Cases
+1. Quickly grasp the key points of lengthy reports or articles.
+2. Generate executive summaries for business documents.
+3. Aid in academic research by summarizing complex papers.
