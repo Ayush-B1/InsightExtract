@@ -28,3 +28,8 @@ User-friendly interface for uploading documents and receiving summaries with jus
 1. Quickly grasp the key points of lengthy reports or articles.
 2. Generate executive summaries for business documents.
 3. Aid in academic research by summarizing complex papers.
+
+# 💡 Future Enhancements
+1. Integration with cloud storage services like Google Drive and Dropbox.
+2. API support for integration into existing workflows.
+3. Additional language support for multilingual document summarization.
