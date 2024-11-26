@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Summarizer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Text Summarizer</h1>
+
+        <!-- Text Input for summarization -->
+        <div class="input-section">
+            <label for="text-input">Enter text to summarize:</label>
+            <textarea id="text-input" class="input-box" rows="4" placeholder="Enter text here..."></textarea>
+            <button class="button" onclick="summarizeText()">Summarize Text</button>
+        </div>
+
+        <!-- URL input -->
+        <div class="input-section url-form">
+            <label for="url-input">Enter a URL to summarize:</label>
+            <input type="text" id="url-input" class="input-box" placeholder="Enter URL here...">
+            <button class="button" onclick="summarizeFromURL()">Summarize URL</button>
+        </div>
+
+        <!-- PDF Upload -->
+        <div class="input-section file-upload">
+            <label for="file-upload">Or upload a PDF to summarize:</label>
+            <input type="file" id="file-upload" class="input-box" accept=".pdf">
+            <button class="button" onclick="uploadPDF()">Summarize PDF</button>
+        </div>
+
+        <!-- Display result -->
+        <div class="result-section">
+            <h3>Summary:</h3>
+            <div class="result-text" id="result-text">
+                <!-- Summary text will appear here -->
+            </div>
+            <button class="button" id="download-button" style="display:none;" onclick="downloadSummary()">Download Summary as PDF</button>
+        </div>
+    </div>
+</body>
+</html>
